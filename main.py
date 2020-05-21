@@ -1,0 +1,7 @@
+
+import logic_reques
+import generator_log_pass
+import queries_reques
+
+
+logic_reques.iterate_by_passwords_then_by_logins(generator_log_pass.generate_simple_login,generator_log_pass.generate_popular_passwords,queries_reques.request_local_server)
